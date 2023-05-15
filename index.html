@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="auhtor" content="Edet John">
+    <meta name="description" content="This is a clone of The playstation website made by Edet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PlayStation</title>
+</head> 
+<body>
+    <header class="flex">
+        <img id="logo" src="images/playstation-logotype(1).png" width="30px" height="30px" alt="playstation logo">
+        <nav class="flex">
+            <ul class="flex navigations">
+                <li class="nav_links">
+                    <span class=" main_nav_links">Games <img src="images/icon-arrow-down.svg" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links games">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img   src="images/video-game-console-with-gamepad(1).png" alt="PS5">
+                                <a href=""><span>PS5</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/playstation.png" alt="PS4">
+                                <a href=""><span>PS4</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/vr-glasses.png" alt="PS VR">
+                                <a href=""><span>PS VR</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/playstation(1).png" alt="">
+                                <a href=""><span>PS PLUS</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/souvenir.png" alt="Buy Games">
+                                <a href=""><span>Buy Games</span></a>
+                            </li>
+                        </ul>
+                        <ul class=" flex bottom_dropdown_nav_links">
+                            <li class="blue_marker"><a href="#">PlayStation Indies</a></li>
+                            <li class="blue_marker"><a href="#">PS4 games on PS5</a></li>
+                            <li class="blue_marker"><a href="#">Free to Play</a></li>
+                            <li class="blue_marker"><a href="#">PlayStation games on PC</a></li>
+                            <li class="blue_marker"><a href="#">Deals & offers</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">Hardware <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links hardware">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img   src="images/video-game-console-with-gamepad(1).png" alt="PS5">
+                                <a href=""><span>PS5</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/playstation.png" alt="">
+                                <a href=""><span>PS4</span></a>
+                            </li>
+                            <li>
+                                <img src="images/playstation(1).png" alt="">
+                                <a href=""><span>PS4 Pro</span></a>
+                            </li>
+                            <li>
+                                <img src="images/vr-glasses.png" alt="">
+                                <a href=""><span>PS VR</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">DualSense wireless controller</a></li>
+                            <li class="blue_marker"><a href="#">PULSE 3D wireless headset</a></li>
+                            <li class="blue_marker"><a href="#">DUALSHOCK 4 wireless controller</a></li>
+                            <li class="blue_marker"><a href="#">PS5 & PS4 accessories</a></li>
+                            <li class="blue_marker"><a href="#">PlayStation VR2</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">Services <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links services">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img src="images/control.png" alt="">
+                                <a href=""><span>PS Plus</span></a>
+                            </li>
+                            <li>
+                                <img src="images/playstation-logo-nav.png" alt="">
+                                <a href=""><span>PS Stars</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">PS5 entertainment</a></li>
+                            <li class="blue_marker"><a href="#">PS4 entertainment</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">News <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links news">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img src="images/article.png" alt="">
+                                <a href=""><span>PS Blog</span></a>
+                            </li>
+                            <li>
+                                <img src="images/calendar.png" alt="">
+                                <a href=""><span>This Month<br> on PlayStation</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">Competion Center</a></li>
+                            <li class="blue_marker"><a href="#"> Accessibility</a></li>
+                            <li class="blue_marker"><a href="#">Privacy & Safety</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">Shop <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links shop">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img src="images/playstation.png" alt="">
+                                <a href=""><span>Hardware and Discs</span></a>
+                            </li>
+                            <li>
+                                <img src="images/souvenir.png" alt="">
+                                <a href=""><span>Digital Games and Services</span></a>
+                            </li>
+                            <li>
+                                <img src="images/souvenir(1).png" alt="">
+                                <a href=""><span>Official Merchandise</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">Buy a PS5</a></li>
+                            <li class="blue_marker"><a href="#">New releases</a></li>
+                            <li class="blue_marker"><a href="#">Latest discounts</a></li>
+                            <li class="blue_marker"><a href="#">Buy gift card</a></li>
+                            <li class="blue_marker"><a href="#">Subscribe to PS5 Plus</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">Support <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links support">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img src="images/question-mark-on-a-circular-black-background.png" alt="">
+                                <a href=""><span>Support</span></a>
+                            </li>
+                            <li>
+                                <img src="images/playstation-logo-nav.png" alt="">
+                                <a href=""><span>PSN Status</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">Account</a></li>
+                            <li class="blue_marker"><a href="#">Store</a></li>
+                            <li class="blue_marker"><a href="#">Subscriptions</a></li>
+                            <li class="blue_marker"><a href="#">Games</a></li>
+                            <li class="blue_marker"><a href="#">Hardware</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="user flex">
+                <button id="signUp">Sign In</button>
+                <img width="20" height="20" src="images/search.png" alt="search" id="search">
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero-section" style="font-family: sans-serif;">
+        <div class="big-display blackfriday flex" style="background-image: url('images/blackfriday-banner.webp')"> 
+            <div class="display-text">
+                <p class="title thin-text">
+                    Black Friday deals are live
+                </p>
+                <p class=" big-display-description">
+                    Get huge oon great games, add-ons, accessories, apparel and more.
+                </p>
+                <button class="big-display-button">
+                     Browse the deals
+                </button>
+            </div>
+        </div>
+        <div class="big-display flex god-of-war" style="background-image: url('images/god-of-war-banner.webp')"> 
+            <div class="display-text">
+                <p class="title thin-text">
+                   The Norse saga continues
+                </p>
+                <p class="thin-text big-display-description">
+                    Embark on an epic and heartfelt journey as Kratos and Atreus struggle with Holding on and letting go, available now on PS4 and PS5
+                </p>
+                <button class="big-display-button">
+                     Find out more 
+                </button>
+            </div>
+        </div>
+        <div class="big-display flex cod" style="background-image: url('images/cod-banner.jpg')"> 
+            <div class="display-text">
+                <p class="title thin-text">
+                   A new era begins 
+                </p>
+                <p class=" big-display-description">
+                    Ready up and drop into Call of Duty: Warzone<sup>TM</sup> and season 01 of Call of Duty: Modern Warfare II
+                </p>
+                <button class="big-display-button">
+                     Find out more 
+                </button>
+            </div>
+        </div>
+        <div class="big-display flex spiderman" style="background-image: url('images/spiderman-banner.jpg')"> 
+            <div class="display-text">
+                <p class="title thin-text">
+                   Be greater. Be yourself.
+                </p>
+                <p class=" big-display-description">
+                   Now available on PC, take up the mantle of Spider-Man and own it in Marvel's Spider-Man: Miles Morales
+                </p>
+                <button class="big-display-button">
+                     Find out more 
+                </button>
+            </div>
+        </div>
+        <div class="big-display flex sonic" style="background-image: url('images/sonic-banner.webp')"> 
+            <div class="display-text">
+                <p class="title thin-text">
+                   Experience Sonic Like never before
+                </p>
+                <p class=" big-display-description">
+                    Accelerate to new heights in Sonic the Hedgehog's newest high-speed, open-zone adventure, available on PS4 and PS5
+                </p>
+                <button class="big-display-button">
+                     Find out more 
+                </button>
+            </div>
+        </div>
+        <div class="big-display flex psvr" style="background-image: url('images/vr-banner.webp')"> 
+            <div class="display-text">
+                <p class="title thin-text">
+                   Register to pre-order PS VR2
+                </p>
+                <p class=" big-display-description">
+                   Get it first from Direct.PlayStation.Com - register now for an opportunity to pre-order
+                </p>
+                <button class="big-display-button">
+                     Register now 
+                </button>
+                <button class="big-display-button">
+                    Learn more about PS VR2 
+               </button>
+            </div>
+        </div>
+
+    </section>
+    <div style="height:200px ;" class="thumbnails flex">
+        <img id="blackfriday" src="images/blackfriday-thumbnail.htm" alt="" class="hero__ thumbnail ">
+        <img id="god-of-war" src="images/god-of-war-ragnarok-listing-thumb-01-09sep21$en.webp" alt="" class="hero__ thumbnail ">
+        <img id="cod" src="images/cod-thumbnail.htm" alt="" class="hero__ thumbnail ">
+        <img id="spiderman" src="images/spiderman-thumbnail.htm" alt="" class="hero__ thumbnail ">
+        <img id="sonic" src="images/sonic-thumbnail.htm" alt="" class="hero__ thumbnail ">
+        <img id="vr" src="images/vr-thumbnail.jpg" alt="" class="hero__ thumbnail ">
+    </div>
+
+    <section class="products">
+        <div class="grid-container PS-Products PS5-console">
+            <div class="product-description flex">
+                <h1 class="title thin-text">
+                    PlayStation5 Console
+                </h1>
+                <p>
+                    Experience an all-new generation of incredible PlayStation games. PS5 consoles are currently in stock
+                </p>
+                <div class="action">
+                    <button id="learn-more">Learn more</button>
+                    <button id="buy-now">Buy now</button>
+                </div>
+            </div>
+            <div class="product-image flex"><img src="images/playstation-5-horizontal-product-shot-01-ps5-en-23nov20.webp" ></div>
+        </div>
+        <div class="grid-container PS-Products wireless-control">
+            <div class="product-description flex">
+                <h1 class="title thin-text">
+                    DualSense™ Wireless Controller
+                </h1>
+                <p>
+                    Immerse yourself in the gaming experience with a controller the supports responsive haptic feedback and dynamic trigger effects.
+                </p>
+                <div class="action">
+                    <button id="learn-more">Learn more</button>
+                </div>
+            </div>
+            <div class="product-image flex"><img src="images/dualsense-collection-image-block-01-en-01sep22.webp" ></div>
+        </div>
+        <div class="grid-container PS-Products wireless-headset">
+            <div class="product-description flex">
+                <h1 class="title thin-text">
+                    PULSE 3D™ Wireless Headset
+                </h1>
+                <p>
+                    Enjoy a seamless wireless experience with a headset fine-tuned for 3D Audio on PS5 consoles.
+                </p>
+                <div class="action">
+                    <button id="learn-more">Learn more</button>
+                </div>
+            </div>
+            <div class="product-image flex"><img src="images/3d-pulse-headset-range-image-block-03-en-13sep22.webp" ></div>
+        </div>
+        <div class="grid-container PS-Products DualSense">
+            <div class="product-description flex">
+                <h1 class="title thin-text">
+                    DualSense Edge™ Wireless Controller
+                </h1>
+                <p>
+                    Get an edge in gameplay with remappable buttons, tunable triggers and sticks, changeable stick caps, back buttons, and more.
+                </p>
+                <div class="action">
+                    <button id="learn-more">Find out more</button>
+                </div>
+            </div>
+            <div class="product-image flex"><img src="images/DualSense-Edge-image-block-01-en-24aug22.webp" ></div>
+        </div>
+        <div class="grid-container PS-Products Remote">
+            <div class="product-description flex">
+                <h1 class="title thin-text">
+                    Media Remote
+                </h1>
+                <p>
+                    Conveniently control movies, streaming services and more on your PS5 console with an intuitive layout.
+                </p>
+                <div class="action">
+                    <button id="learn-more">Learn more</button>
+                </div>
+            </div>
+            <div class="product-image flex"><img src="images/Media-Remote-square-image-block-ps5-01-en-09oct20.webp" ></div>
+        </div>
+        <div class="grid-container PS-Products Camera">
+            <div class="product-description flex">
+                <h1 class="title thin-text">
+                    HD Camera
+                </h1>
+                <p>
+                    Add yourself to your gameplay videos and broadcasts with smooth, sharp, full-HD capture.
+                </p>
+                <div class="action">
+                    <button id="learn-more">Learn more</button>
+                </div>
+            </div>
+            <div class="product-image flex"><img src="images/hd-camera-square-image-block-ps5-01-en-07dec20.webp" ></div>
+        </div>
+        <div class="grid-container PS-Products console-cover">
+            <div class="product-description flex">
+                <h1 class="title thin-text">
+                    PS5 Console Covers
+                </h1>
+                <p>
+                    Personalise your PlayStation 5 or PlayStation 5 Digital Edition console with a vibrant array of new colour options.
+                </p>
+                <div class="action">
+                    <button id="learn-more">Learn more</button>
+                </div>
+            </div>
+            <div class="product-image flex"><img src="images/ps5-console-cover-range-image-block-01-en-06sep22.webp" ></div>
+        </div>
+        <div class="product-thumbnails thumbnails flex">
+            <div style="align-self: stretch;" class="thumbnail flex one">
+                <img width="100%" style="margin-bottom:.8rem;"  src="images/playstation-5-horizontal-product-shot-01-ps5-en-23nov20.webp" alt="PS5 Console">
+                <p class="thin-text">PS5 Console</p>
+            </div>
+            <div style="align-self: stretch;" class="thumbnail flex two">
+                <img width="100%" style="margin-bottom:.8rem;"  src="images/dualsense-collection-image-block-01-en-01sep22.webp" alt="PS5 Console">
+                <p class="thin-text">DualSense<sup>TM</sup> wireless Controller </p>
+            </div>
+            <div style="align-self: stretch;" class="thumbnail flex three">
+                <img width="100%" style="margin-bottom:.8rem;"  src="images/3d-pulse-headset-range-image-block-03-en-13sep22.webp" alt="PS5 Console">
+                <p class="thin-text">PULSE 3D<sup>TM</sup> Wireless Headset</p>
+            </div>
+            <div style="align-self: stretch;" class="thumbnail flex four">
+                <img width="100%" style="margin-bottom:.8rem;" src="images/DualSense-Edge-image-block-01-en-24aug22.webp" alt="PS5 Console">
+                <p class="thin-text">DualSense Edge</p>
+            </div>
+            <div style="align-self: stretch;" class="thumbnail flex five">
+                <img width="100%" style="margin-bottom:.8rem;" src="images/Media-Remote-square-image-block-ps5-01-en-09oct20.webp" alt="PS5 Console">
+                <p class="thin-text">Media Remote</p>
+            </div>
+            <div style="align-self: stretch;" class="thumbnail flex six">
+                <img width="100%" style="margin-bottom:.8rem;" src="images/hd-camera-square-image-block-ps5-01-en-07dec20.webp" alt="PS5 Console">
+                <p class="thin-text">HD Camera</p>
+            </div>
+            <div style="align-self: stretch;" class="thumbnail flex seven">
+                <img width="100%" style="margin-bottom:.8rem;" src="images/ps5-console-cover-range-image-block-01-en-06sep22.webp" alt="PS5 Console">
+                <p class="thin-text">PS5 Console Covers</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="PS-plus flex">
+        <div class="grid-container PS-plus-content">
+            <div class="PS-plus-description">
+                <img width="90%" style="margin-inline: auto; margin-bottom: 2rem;" src="images/ps-plus-black-badge@2x.webp" alt="">
+                <p class="thin-text">Enhance your PlayStation experience with access to online multiplayer, monthly games, exclusive discounts and more</p>
+                <button>Explore PlayStation Plus</button>
+            </div>
+            <div class="PS-Plus-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="this-month-on-ps">
+        <div class="grid-container this-month-on-ps-content">
+            <div class="this-month-on-ps-description">
+                <h1><span class="thin-text">THIS MONTH</span><br> ON PLAYSTATION</h1>
+                <p class="thin-text">Check out this month's biggest releases along with dedicated features, guides and more</p>
+                <button>Find out more</button>
+            </div>
+            <div class="this-month-on-ps-images flex">
+                <div class="this-month-on-ps-image flex">
+                    <img width="100%" src="images/battle-royal-editorial-keyart-01-en-17may22.webp" alt="battle royale games on ps4 and ps5">
+                    <p class="thin-text">The best battle royale games on PS4 and PS5</p>
+                </div>
+                <div class="this-month-on-ps-image flex">
+                    <img width="100%" src="images/ps-plus-extra-hidden-gems-hero-page-banner-keyart-01-en-28jul22.webp" alt="hidden gems on ps plus extra">
+                    <p class="thin-text">20 unmissable hidden gem on PS Plus Extra</p>
+                </div>
+                <div class="this-month-on-ps-image flex">
+                    <img width="100%" src="images/1980s-classic-arcade-games-keyart-01-en-06jul22.webp" alt="classic arcade games">
+                    <p class="thin-text">
+                        Rediscover classic arcade games on PS4 and PS5
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="last-of-us">
+        <figure>
+            <img width="100%" src="images/the-last-of-us-part-i-hero-banner-desktop-01-ps5-en-11aug22.webp" alt="">
+            <figcaption class="last-of-us-description">
+                <img width="60%" src="images/the-last-of-us-part-i-logo-01-en-18may22.webp" alt="">
+                <h1 class="last-of-us-title thin-text">
+                    Available now
+                </h1>
+                <p class="last-of-us-text thin-text">
+                    Relive the beloved game that started it all - rebuilt for PS5
+                </p>
+                <button class="last-of-us-button">Buy now</button>
+            </figcaption>
+        </figure>
+    </section>
+    
+    <section class="carousel-container">
+        <div class="carousel-control">
+            <button id="prevBtn">prev</button>
+            <button id="nextBtn">next</button>
+        </div>
+        <div class="carousel-slide grid-container">
+            <div class="carousel new-releases">
+
+                <div class="carousel-description">
+                    <h3 class="carousel-title">New releases</h3>
+                    <p class="thin-text">Great PS5 and PS4 games available now</p>
+                </div>
+
+                <div class="grid-container carousel-elements">
+                    <div class="carousel-items flex"><img src="images/fifa-23-standard-edition-pack-01-ps4-ps5-en-01aug22.webp" alt=""><p class="thin-text">EA SPORTS<sup>TM</sup> FIFA23</p></div>
+                    <div class="carousel-items flex"><img src="images/sonic-frontiers-store-artwork-01-en-24aug22.webp" alt=""><p class="thin-text">Sonic Frontiers</p></div>
+                    <div class="carousel-items flex"><img src="images/stray-pack-01-ps4-ps5-en-10jun22.htm" alt=""><p class="thin-text">Stray</p></div>
+                    <div class="carousel-items flex"><img src="images/horizon-forbidden-west-store-art-01-01apr21$en.webp" alt=""><p class="thin-text">Horizon Forbidden...</p></div>
+                    <div class="carousel-items flex"><img src="images/elden-ring-store-art-01-ps5-03sep21$en.webp" alt=""><p class="thin-text">Elden Ring</p></div>
+                    <div class="carousel-items flex"><img src="images/god-of-war-ragnarok-listing-thumb-01-09sep21$en.webp" alt=""><p class="thin-text">God of War Ragnarok</p></div>
+                    <div class="carousel-items flex"><img src="images/the-last-of-us-part-i-keyart-01-en-18may22.webp" alt=""><p class="thin-text"> The Last of Us<sup>TM</sup> Part I</p></div>
+                    <div class="carousel-items flex"><img src="images/call-of-duty-modern-warfare-2-pack-01-ps4-ps5-en-26may22$en.webp" alt=""><p class="thin-text">Call of Duty<sup>&copy;</sup> ...</p></div>
+                    <div class="carousel-items flex"><img src="images/gotham-knights-store-art-01-02nov21$en.webp" alt=""><p class="thin-text">Gotham Knights</p></div>
+                    <div class="carousel-items flex"><img src="images/overwatch-2-store-artwork-01-en-5sep22.webp" alt=""><p class="thin-text">Overwatch 2</p></div>
+                    <div class="carousel-items flex"><img src="images/plague-tale-requiem-store-artwork-01-en-5sep22.webp" alt=""><p class="thin-text">A Plague Tale:...</p></div>
+                    <div class="carousel-items flex"><img src="images/gran-turismo-7-packshot-01-en-09sep21.webp" alt=""><p class="thin-text">Gran Turismo<sup>&copy;</sup> 7</p></div>
+                </div>
+
+            </div>
+
+            <div class="carousel coming-soon">
+
+                <div class="carousel-description">
+                    <h3 class="carousel-title">Coming soon</h3>
+                    <p class="thin-text">Amazing new experiences are just around corner</p>
+                </div>
+
+                <div class="grid-container carousel-elements">
+                    <div class="carousel-items flex"><img src="images/hogwarts-packshot-thumb-01-en-12jan21.webp" alt=""><p class="thin-text">Hogwarts Legacy</p></div>
+                    <div class="carousel-items flex"><img src="images/street-fighter-6-pack-01-ps4-ps5-02sep22.webp" alt=""><p class="thin-text">Street Fighter 6</p></div>
+                    <div class="carousel-items flex"><img src="images/the-callisto-protocol-store-artwork-01-en-22jun22.webp" alt=""><p class="thin-text">The Callisto Protocol</p></div>
+                    <div class="carousel-items flex"><img src="images/skull-and-bones-pack-01-ps4-ps5-08jul22$en.webp" alt=""><p class="thin-text">Skull and Bones</p></div>
+                    <div class="carousel-items flex"><img src="images/silent-hill-2-pack-01-en-14nov22.webp" alt=""><p class="thin-text">Silent Hill 2</p></div>
+                    <div class="carousel-items flex"><img src="images/dead-space-pack-01-en-29sep22.webp" alt=""><p class="thin-text">Dead Space</p></div>
+                    <div class="carousel-items flex"><img src="images/forspoken-pack-01-en-ps5-06jan22.webp" alt=""><p class="thin-text">Forspoken</p></div>
+                    <div class="carousel-items flex"><img src="images/need-for-speed-unbound-store-artwork-01-en-25oct22.webp" alt=""><p class="thin-text">Need for Speed</p></div>
+                    <div class="carousel-items flex"><img src="images/little-devil-inside-store-art-01-ps4-ps5-26may21$en.webp" alt=""><p class="thin-text">Little Devil Inside</p></div>
+                    <div class="carousel-items flex"><img src="images/wild-hearts-pack-01-en-03oct22.webp" alt=""><p class="thin-text">WILD HEARTS<sup>TM</sup></p></div>
+                    <div class="carousel-items flex"><img src="images/suicide-squad-KtJL-storeart-01-en-9dec21.webp" alt=""><p class="thin-text">Suicide Squad: Kill</p></div>
+                    <div class="carousel-items flex"><img src="images/final-fantasy-xvi-pack-01-ps5-en-30aug22.webp" alt=""><p class="thin-text">Final Fantasy XVI</p></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore__container">
+            <div class="explore-description">
+                <h1 class="thin-text explore-description__title">
+                    Explore PlayStation<sup>&copy;</sup>4
+                </h1>
+                <p class="thin-text">
+                    Incredible games, non-stop entertainment. There's never been a better time to enjoy PS4
+                <p>
+            </div>
+            <div class="explore-content flex">
+                <div class="explore-content__item flex PS4">
+                    <img width="100%" src="images/ps4-slim-homepage-image-block-04-en-09oct20.htm" alt="">
+                    <div class="explore-content__item_text">
+                        <h1 class="thin-text explore-content__title">
+                            PlayStation 4
+                        </h1>
+                        <p class="thin-text">
+                            Incredible games live on PS4, with 1TB storage.
+                        </p>
+                        <button class="explore-content__btn">
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+                <div class="explore-content__item flex PSVR">
+                    <img width="100%" src="images/double11-202010-tw-psvr.htm" alt="">
+                    <div class="explore-content__item_text">
+                        <h1 class="thin-text explore-content__title">
+                            PlayStation VR
+                        </h1>
+                        <p class="thin-text">
+                            Over 500 games and experiences and counting. See them all.
+                        </p>
+                        <button class="explore-content__btn">
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+                <div class="explore-content__item  flex accessories">
+                    <img width="100%" src="images/dualshock-4-listing-thumb-01-ps4-en-12oct20.htm" alt="">
+                    <div class="explore-content__item_text">
+                        <h1 class="thin-text explore-content__title">
+                            Accessories
+                        </h1>
+                        <p class="thin-text">
+                            Enhance your PS4 experience with a range of official accessories
+                        </p>
+                        <button class="explore-content__btn">
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="discount grid-container">
+                <div class="discount__text flex">
+                    <h1 class="thin-text">
+                        New savings on PlayStation Store 
+                    </h1>
+                    <p style="font-size: .8rem;">Explore the latest discounts and seasonal sales on great games and add-ons  for PS5 PS4</p>
+                    <button class="discount__text_btn">
+                        See all deals
+                    </button>
+                </div>
+                <div class="discount__img">
+                    <img width="100%" src="images/nov-savings-image-block-01-25oct22$en.htm" alt="november savings: upto 65% discount">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="merch">
+        <div class="merch__container flex">
+            <div class="merch__description">
+                <img src="images/ps-gear-blue-icon-01-01feb21.htm" alt="">
+                <h1 class="thin-text merch__description-title">
+                    PlayStation official licensed apparel and merchandise 
+                </h1>
+                <p>Browse the playStation Gear store for official accessories, collectibles, clothing and more</p>
+            </div>
+            <div class="merch-products flex">
+                <div class="merch-products__items flex">
+                    <img src="images/ps-gear-ps-heritage-zipup-hoodie-image-block-01-en-26may22.webp" alt="">
+                    <p>PlayStation<sup>TM</sup> Heritage Zip Up Hoodie</p>
+                    <button> Shop now</button>
+                </div>
+                <div class="merch-products__items flex">
+                    <img src="images/ps-gear-ps-logo-tshirt-image-block-01-en-26may22.webp" alt="">
+                    <p>PlayStation<sup>TM</sup> Logo Tee</p>
+                    <button>Shop now</button>
+                </div>
+                <div class="merch-products__items flex">
+                    <img src="images/ps-gear-ps-brand-hat-image-block-01-en-26may22.webp" alt="">
+                    <p>PlayStation<sup>TM</sup> 47 Brand Hat</p>
+                    <button>Shop now</button>
+                </div>
+                <div class="merch-products__items flex">
+                    <img src="images/ps-gear-ps-heritage-mug-image-block-01-en-26may22.webp" alt="">
+                    <p>PlayStation<sup>TM</sup> Heritage Mug</p>
+                    <button>Shop now</button>
+                </div>
+            </div>
+            <button class="shop-btn">Shop the collection</button>
+        </div>
+    </section>
+
+    <section class="playstation-blog">
+        <h1 class="thin-text playstation-blog__title">
+            The latest news from playStation Blog
+        </h1>
+        <div class="playstation-blog__carousel-container">
+            <div class="playstation-blog__carousel grid-container">
+                <div id="item1" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/spiderman.webp" alt="">
+                    <h1>Marvel's Spider-Man: Miles Morales is out now on PC</h1>
+                    <p>Today we celebrate the launch of Marvel's Spider-Man: Miles Morales on PC! Like the PC version of Marvel's Spider-Man Remastered released earlier this year, this has been a close...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item2" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/black friday.webp" alt="">
+                    <h1 >PlayStation's Black Friday Deals 2022</h1>
+                    <p>PlayStation's Black Friday Deals go live tomorrow(November 18 at 12:00am local time*. With so many great deals and deep discounts rolling out across PlayStation store,...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item3" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/knockout city.webp" alt="">
+                    <h1>Knockout City: High Society Heist introduces Poison Ball, Red Hand Crew, and more</h1>
+                    <p>Hey there, playStation brawlers! It's your informant on the inside. I'm on the roof of velan Studios HQ and i'm pleased to report Operation: Season 8 Reveal is a total success. I've...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item4" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/dead cells.webp" alt="">
+                    <h1>Dead Cells' Second indie crossover brings Shovel Knight, Terraria, katana Zero and more to the game Today </h1>
+                    <p></p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item5" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/rainbow six siege.webp" alt="">
+                    <h1>Rainbow six Siege: how Azami almost broke the game</h1>
+                    <p>Rainbow Six Siege has joined the Ubisoft+ Classics catalog meaning it is now free-to-play for all PlayStation Plus Extra and Premium members. A multiplayer shooter, where...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item6" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/ragnarok sound track.webp" alt="">
+                    <h1>Tune into the God of War Ragnarok Soundtrack Listening Party stream November 17</h1>
+                    <p>After four years in the making, we are finally celebrating the release of God of War Ragnarok! With the success of God of War (2018) came tremendous pressure to give fans a seque...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item7" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/ps podcast.webp" alt="">
+                    <h1>Official PlayStation Podcast Episode 444: Ragnarok Arrives</h1>
+                    <p>PlayStation  Official PlayStation Podcast Episode 444: Ragnarok Arrives Email us at PSPodcast@sony.com! Subscribe via Apple Podcasts, Spotify, or download here...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item8" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/gotham knight.webp" alt="">
+                    <h1>Share of the Week: Gotham Knights</h1>
+                    <p>Last week we put out the signal requesting photos of the Bat Fam from Gotham Knights. Players patrolling the city streets took up the call, and we're happy to share a selection of...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item9" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/forspoken activities.webp" alt="">
+                    <h1>10 Activities Frey can dive into in Forspoken</h1>
+                    <p>Over the last few weeks, we've explored Forspoken's spectacular magic-based parkour, and the game's intense comat system. Today we're going to give you a look at th...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="item10" class="playstation-blog__carousel-items flex">
+                    <img width="100%" src="images/ragnorok.webp" alt="">
+                    <h1>Share of the Week: God of War Ragnarok</h1>
+                    <p>Last week, we ventured into the nine realms and asked you to share mythic moments from God War Ragnarok using #PSshare #PSBlog. Here are this week's highlights: Sowyer...</p>
+                    <div class="profile flex">
+                        <img width="20%" src="images/Justin-Massongill.jpg" alt="">
+                        <div class="profile__info">
+                            <h3>Julian Huijbregts</h3>
+                            <p>Community Manager, Nixxes Software</p>
+                            <p>Nov 18, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+            <button id="prev" class="playstation-blog__carousel-button">prev</button>
+                    <button id="next" class="playstation-blog__carousel-button">next</button>
+        </div>
+        <div class="track-carousel flex">
+            <label for="item1" class="tracks"></label>
+            <label for="item2" class="tracks"></label>
+            <label for="item3" class="tracks"></label>
+            <label for="item4" class="tracks"></label>
+            <label for="item5" class="tracks"></label>
+            <label for="item6" class="tracks"></label>
+            <label for="item7" class="tracks"></label>
+            <label for="item8" class="tracks"></label>
+            <label for="item9" class="tracks"></label>
+            <label for="item10" class="tracks"></label>
+        </div>
+    </section>
+
+    <section class="social-handles">
+        <h1 class="thin-text">Follow us on social media</h1>
+        <div class="social-handles_links flex">
+            <a href=""><img src="images/twitter-monochrome-icon-01-en-13may21.webp" alt="Twitter"></a>
+            <a href=""><img src="images/facebook-monochrome-icon-01-en-13may21.webp" alt="Facebook"></a>
+            <a href=""><img src="images/instagram-monochrome-icon-01-en-13may21.webp" alt="instagram"></a>
+            <a href=""><img src="images/youtube-monochrome-icon-01-en-13may21.webp" alt="YouTube"></a>
+        </div>
+    </section>
+
+    <section class="bottom-header flex">
+        <img id="logo" src="images/playstation-logotype(1).png" width="30px" height="30px" alt="playstation logo">
+        <nav class="flex">
+            <ul class="flex navigations">
+                <li class="nav_links">
+                    <span class=" main_nav_links">Games <img src="images/icon-arrow-down.svg" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links games">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img   src="images/video-game-console-with-gamepad(1).png" alt="PS5">
+                                <a href=""><span>PS5</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/playstation.png" alt="PS4">
+                                <a href=""><span>PS4</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/vr-glasses.png" alt="PS VR">
+                                <a href=""><span>PS VR</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/playstation(1).png" alt="">
+                                <a href=""><span>PS PLUS</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/souvenir.png" alt="Buy Games">
+                                <a href=""><span>Buy Games</span></a>
+                            </li>
+                        </ul>
+                        <ul class=" flex bottom_dropdown_nav_links">
+                            <li class="blue_marker"><a href="#">PlayStation Indies</a></li>
+                            <li class="blue_marker"><a href="#">PS4 games on PS5</a></li>
+                            <li class="blue_marker"><a href="#">Free to Play</a></li>
+                            <li class="blue_marker"><a href="#">PlayStation games on PC</a></li>
+                            <li class="blue_marker"><a href="#">Deals & offers</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">Hardware <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links hardware">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img   src="images/video-game-console-with-gamepad(1).png" alt="PS5">
+                                <a href=""><span>PS5</span></a>
+                            </li>
+                            <li>
+                                <img   src="images/playstation.png" alt="">
+                                <a href=""><span>PS4</span></a>
+                            </li>
+                            <li>
+                                <img src="images/playstation(1).png" alt="">
+                                <a href=""><span>PS4 Pro</span></a>
+                            </li>
+                            <li>
+                                <img src="images/vr-glasses.png" alt="">
+                                <a href=""><span>PS VR</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">DualSense wireless controller</a></li>
+                            <li class="blue_marker"><a href="#">PULSE 3D wireless headset</a></li>
+                            <li class="blue_marker"><a href="#">DUALSHOCK 4 wireless controller</a></li>
+                            <li class="blue_marker"><a href="#">PS5 & PS4 accessories</a></li>
+                            <li class="blue_marker"><a href="#">PlayStation VR2</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">Services <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links services">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img src="images/control.png" alt="">
+                                <a href=""><span>PS Plus</span></a>
+                            </li>
+                            <li>
+                                <img src="images/playstation-logo-nav.png" alt="">
+                                <a href=""><span>PS Stars</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">PS5 entertainment</a></li>
+                            <li class="blue_marker"><a href="#">PS4 entertainment</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">News <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links news">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img src="images/article.png" alt="">
+                                <a href=""><span>PS Blog</span></a>
+                            </li>
+                            <li>
+                                <img src="images/calendar.png" alt="">
+                                <a href=""><span>This Month<br> on PlayStation</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">Competion Center</a></li>
+                            <li class="blue_marker"><a href="#"> Accessibility</a></li>
+                            <li class="blue_marker"><a href="#">Privacy & Safety</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">Shop <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links shop">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img src="images/playstation.png" alt="">
+                                <a href=""><span>Hardware and Discs</span></a>
+                            </li>
+                            <li>
+                                <img src="images/souvenir.png" alt="">
+                                <a href=""><span>Digital Games and Services</span></a>
+                            </li>
+                            <li>
+                                <img src="images/souvenir(1).png" alt="">
+                                <a href=""><span>Official Merchandise</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">Buy a PS5</a></li>
+                            <li class="blue_marker"><a href="#">New releases</a></li>
+                            <li class="blue_marker"><a href="#">Latest discounts</a></li>
+                            <li class="blue_marker"><a href="#">Buy gift card</a></li>
+                            <li class="blue_marker"><a href="#">Subscribe to PS5 Plus</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_links">
+                    <span class=" main_nav_links">Support <img src="images/icon-arrow-down.svg" class="nav-arrow" alt=""></span>
+                    <div aria-expanded="false" class="dropdown_nav_links support">
+                        <ul class="icon_links flex">
+                            <li>
+                                <img src="images/question-mark-on-a-circular-black-background.png" alt="">
+                                <a href=""><span>Support</span></a>
+                            </li>
+                            <li>
+                                <img src="images/playstation-logo-nav.png" alt="">
+                                <a href=""><span>PSN Status</span></a>
+                            </li>
+                        </ul>
+                        <ul class="bottom_dropdown_nav_links flex">
+                            <li class="blue_marker"><a href="#">Account</a></li>
+                            <li class="blue_marker"><a href="#">Store</a></li>
+                            <li class="blue_marker"><a href="#">Subscriptions</a></li>
+                            <li class="blue_marker"><a href="#">Games</a></li>
+                            <li class="blue_marker"><a href="#">Hardware</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="user flex">
+                <button id="signUp">Sign In</button>
+                <img width="20" height="20" src="images/search.png" alt="search" id="search">
+            </div>
+        </nav>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="grid-container">
+                <div class="brand-area">
+                    <img src="images/ps-bug.svg" alt="">
+                    <p>Country/Region: United States</p>
+                </div>
+                <div class="footer-navlnks">
+                    <ul>
+                        <li>Support</li>
+                        <li>Privacy policy</li>
+                        <li>Website terms of use</li>
+                        <li>PlayStation Studios</li>
+                        <li>Legal</li>
+                        <li>About SIE</li>
+                        <li>PlayStation and the environment</li>
+                    </ul>
+                </div>
+                <div class="footer-navlnks">
+                    <ul>
+                        <li>PSN terms of service</li>
+                        <li>PS Store cancellation policy</li>
+                        <li>Health warning</li>
+                        <li>About ratings</li>
+                        <li>Press release</li>
+                        <li>Careers</li>
+                        <li>Developers</li>
+                        <li>Site map</li>
+                    </ul>
+                </div>
+                <div class="footer-navlnks">
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                        <li>Istagram</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sie flex">
+                <div class="sie__brand-area">
+                    
+                        <img width="40%" src="images/sie.svg" alt="">
+                    
+                    <p>&copy; 2022 Sony Interactive Entertainment LLC</p>
+                </div>
+                <img width="5%" src="images/esrb.svg" alt="">
+            </div>
+        </div>
+    </footer> 
+    <script src="index.js"></script>
+</body>
+</html>
